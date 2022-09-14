@@ -42,6 +42,10 @@
       </div>
     </div>
     <editing />
+    <bigcard />
+    <recent />
+    <assets />
+    <masterFooter />
   </div>
 </template>
 
@@ -52,7 +56,10 @@ import company from "@/components/company.vue";
 import magicFeature from "@/components/magicFeature.vue";
 import card from "@/components/card.vue";
 import editing from "@/components/editing.vue";
-
+import recent from "@/components/recent.vue";
+import assets from "@/components/assets.vue";
+import masterFooter from "@/components/masterFooter.vue";
+import bigcard from "@/components/bigcard.vue";
 
 export default {
   components: {
@@ -61,8 +68,11 @@ export default {
     company,
     magicFeature,
     card,
-    editing
-    
+    editing,
+    recent,
+    assets,
+    masterFooter,
+    bigcard,
   },
 };
 </script>
